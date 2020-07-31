@@ -782,7 +782,7 @@ body{
  
     padding-bottom: 50px;
     position: relative;
-    background-image: url('/images/picture1.jpg');
+    background-image: url('..\images/picture1.jpg');
     background-size: cover;
     height: auto;
     top: -22px;
