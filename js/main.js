@@ -144,7 +144,7 @@ for(i=0;i<mainLinks.length;i++){
   RemoveActiveClasses(mainLinks);
    this.classList.add('active');
    let myelm = document.querySelector(this.dataset.section);
-     window.scrollTo(0,myelm.offsetTop)
+   window.scrollTo(0,myelm.offsetTop)
 }
 }
 
