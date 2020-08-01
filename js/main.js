@@ -110,7 +110,7 @@ if(mainImg !== null){
 function ActiveClasses(){
     if(bgOptions === true){
         theInter = setInterval(() => {
-            myHeader.style.backgroundImage = `url(/images/${Math.floor(Math.random()*imgArr.length)}.jpg`
+            myHeader.style.backgroundImage = `url(../images/${Math.floor(Math.random()*imgArr.length)}.jpg`
         },2000);
     }
 }
